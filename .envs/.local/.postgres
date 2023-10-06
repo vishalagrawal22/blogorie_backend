@@ -1,0 +1,5 @@
+POSTGRES_HOST = postgres
+POSTGRES_PORT = 5432
+POSTGRES_DB = blogorie-db
+POSTGRES_USER = blogorie-server
+POSTGRES_PASSWORD = blogorie-pass-123

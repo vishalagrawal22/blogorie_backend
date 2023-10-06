@@ -2,6 +2,7 @@
 .coverage*
 .DS_Store
 staticfiles
+mediafiles
 .envs/*
 !.envs/.local
 
