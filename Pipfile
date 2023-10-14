@@ -23,7 +23,9 @@ django-taggit = "~=4.0"
 flake8 = "~=6.1"
 black = "~=23.9"
 isort = "~=5.12"
+mypy = "~=1.4"
 psycopg = {extras = ["binary"], version = "~=3.1"}
+django-stubs = {extras = ["compatible-mypy"], version = "~=4.2"}
 
 [requires]
 python_version = "3.11"

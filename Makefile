@@ -54,3 +54,6 @@ isort-diff:
 
 isort:
 	docker compose -f local.yaml exec django-backend isort --skip migrations .
+
+mypy:
+	docker compose -f local.yaml exec django-backend mypy .
